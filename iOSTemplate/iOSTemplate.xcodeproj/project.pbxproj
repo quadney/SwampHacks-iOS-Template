@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9283ABB1A8A8ECB00E785CC /* LeftShark_09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9283ABA1A8A8ECB00E785CC /* LeftShark_09.jpg */; };
 		C92F030C1A814646004276CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F030B1A814646004276CF /* main.m */; };
 		C92F030F1A814646004276CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92F030E1A814646004276CF /* AppDelegate.m */; };
 		C92F03151A814646004276CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92F03131A814646004276CF /* Main.storyboard */; };
@@ -27,7 +28,6 @@
 		C994BFC31A8A7D80001058F8 /* LeftShark_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB91A8A7D80001058F8 /* LeftShark_06.jpg */; };
 		C994BFC41A8A7D80001058F8 /* LeftShark_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFBA1A8A7D80001058F8 /* LeftShark_07.jpg */; };
 		C994BFC51A8A7D80001058F8 /* LeftShark_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFBB1A8A7D80001058F8 /* LeftShark_08.jpg */; };
-		C994BFC61A8A7D80001058F8 /* LeftShark_09.png in Resources */ = {isa = PBXBuildFile; fileRef = C994BFBC1A8A7D80001058F8 /* LeftShark_09.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9283ABA1A8A8ECB00E785CC /* LeftShark_09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_09.jpg; sourceTree = "<group>"; };
 		C92F03061A814646004276CF /* iOSTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92F030A1A814646004276CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92F030B1A814646004276CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,7 +70,6 @@
 		C994BFB91A8A7D80001058F8 /* LeftShark_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_06.jpg; sourceTree = "<group>"; };
 		C994BFBA1A8A7D80001058F8 /* LeftShark_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_07.jpg; sourceTree = "<group>"; };
 		C994BFBB1A8A7D80001058F8 /* LeftShark_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_08.jpg; sourceTree = "<group>"; };
-		C994BFBC1A8A7D80001058F8 /* LeftShark_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftShark_09.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 				C994BFB91A8A7D80001058F8 /* LeftShark_06.jpg */,
 				C994BFBA1A8A7D80001058F8 /* LeftShark_07.jpg */,
 				C994BFBB1A8A7D80001058F8 /* LeftShark_08.jpg */,
-				C994BFBC1A8A7D80001058F8 /* LeftShark_09.png */,
+				C9283ABA1A8A8ECB00E785CC /* LeftShark_09.jpg */,
 				C97F20FC1A89D31C00E5CEC6 /* beep.mp3 */,
 				C97F20FD1A89D31C00E5CEC6 /* boop.mp3 */,
 				C92F030A1A814646004276CF /* Info.plist */,
@@ -257,9 +257,9 @@
 				C994BFBF1A8A7D80001058F8 /* LeftShark_02.jpg in Resources */,
 				C97F20FE1A89D31C00E5CEC6 /* beep.mp3 in Resources */,
 				C994BFC51A8A7D80001058F8 /* LeftShark_08.jpg in Resources */,
+				C9283ABB1A8A8ECB00E785CC /* LeftShark_09.jpg in Resources */,
 				C92F03171A814646004276CF /* Images.xcassets in Resources */,
 				C994BFC41A8A7D80001058F8 /* LeftShark_07.jpg in Resources */,
-				C994BFC61A8A7D80001058F8 /* LeftShark_09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

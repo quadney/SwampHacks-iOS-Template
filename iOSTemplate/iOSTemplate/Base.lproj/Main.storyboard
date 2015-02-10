@@ -159,7 +159,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEEP BOOP INDEX 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrS-DF-zlb">
-                                <rect key="frame" x="16" y="362" width="568" height="117"/>
+                                <rect key="frame" x="0.0" y="370" width="600" height="117"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="Mmw-cX-IlN"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="117" id="isr-Z5-bbb"/>
@@ -178,15 +179,15 @@
                         <constraints>
                             <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="6lg-wG-3Fg" secondAttribute="bottom" constant="8" id="0D4-uk-Y19"/>
                             <constraint firstItem="6lg-wG-3Fg" firstAttribute="top" secondItem="VrS-DF-zlb" secondAttribute="bottom" constant="47" id="6s7-wJ-6O1"/>
-                            <constraint firstItem="VrS-DF-zlb" firstAttribute="trailing" secondItem="sIj-6k-fhP" secondAttribute="trailingMargin" id="Anp-n5-IBu"/>
-                            <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="VrS-DF-zlb" secondAttribute="bottom" constant="8" id="Dzf-db-n0E"/>
+                            <constraint firstItem="VrS-DF-zlb" firstAttribute="trailing" secondItem="sIj-6k-fhP" secondAttribute="trailingMargin" constant="16" id="Anp-n5-IBu"/>
+                            <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="VrS-DF-zlb" secondAttribute="bottom" id="Dzf-db-n0E"/>
                             <constraint firstItem="6lg-wG-3Fg" firstAttribute="top" secondItem="kVM-QK-ujE" secondAttribute="bottom" id="EkH-gY-zYF"/>
                             <constraint firstItem="6lg-wG-3Fg" firstAttribute="trailing" secondItem="sIj-6k-fhP" secondAttribute="trailingMargin" id="T2N-Bp-OHJ"/>
                             <constraint firstItem="6lg-wG-3Fg" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" id="UIX-Rl-8WF"/>
                             <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="6lg-wG-3Fg" secondAttribute="bottom" id="WOP-4P-iIk"/>
                             <constraint firstItem="VrS-DF-zlb" firstAttribute="top" secondItem="kVM-QK-ujE" secondAttribute="bottom" constant="59" id="g00-eB-MFe"/>
                             <constraint firstItem="6lg-wG-3Fg" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" constant="-16" id="jnW-9S-Xms"/>
-                            <constraint firstItem="VrS-DF-zlb" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" id="pVe-yE-5KA"/>
+                            <constraint firstItem="VrS-DF-zlb" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" constant="-16" id="pVe-yE-5KA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6lg-wG-3Fg" secondAttribute="trailing" constant="-16" id="uaK-to-wgM"/>
                         </constraints>
                         <variation key="default">
