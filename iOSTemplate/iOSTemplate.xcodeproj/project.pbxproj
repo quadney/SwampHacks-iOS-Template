@@ -18,6 +18,16 @@
 		C97F20FE1A89D31C00E5CEC6 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C97F20FC1A89D31C00E5CEC6 /* beep.mp3 */; };
 		C97F20FF1A89D31C00E5CEC6 /* boop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C97F20FD1A89D31C00E5CEC6 /* boop.mp3 */; };
 		C97FF30B1A814D8E00F09F55 /* Item2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FF30A1A814D8E00F09F55 /* Item2TableViewController.m */; };
+		C994BFB21A8A798D001058F8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C994BFB11A8A798D001058F8 /* DetailViewController.m */; };
+		C994BFBE1A8A7D80001058F8 /* LeftShark_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB41A8A7D80001058F8 /* LeftShark_01.jpg */; };
+		C994BFBF1A8A7D80001058F8 /* LeftShark_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB51A8A7D80001058F8 /* LeftShark_02.jpg */; };
+		C994BFC01A8A7D80001058F8 /* LeftShark_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB61A8A7D80001058F8 /* LeftShark_03.jpg */; };
+		C994BFC11A8A7D80001058F8 /* LeftShark_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB71A8A7D80001058F8 /* LeftShark_04.jpg */; };
+		C994BFC21A8A7D80001058F8 /* LeftShark_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB81A8A7D80001058F8 /* LeftShark_05.jpg */; };
+		C994BFC31A8A7D80001058F8 /* LeftShark_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFB91A8A7D80001058F8 /* LeftShark_06.jpg */; };
+		C994BFC41A8A7D80001058F8 /* LeftShark_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFBA1A8A7D80001058F8 /* LeftShark_07.jpg */; };
+		C994BFC51A8A7D80001058F8 /* LeftShark_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C994BFBB1A8A7D80001058F8 /* LeftShark_08.jpg */; };
+		C994BFC61A8A7D80001058F8 /* LeftShark_09.png in Resources */ = {isa = PBXBuildFile; fileRef = C994BFBC1A8A7D80001058F8 /* LeftShark_09.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,17 @@
 		C97F20FD1A89D31C00E5CEC6 /* boop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boop.mp3; sourceTree = "<group>"; };
 		C97FF3091A814D8E00F09F55 /* Item2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item2TableViewController.h; sourceTree = "<group>"; };
 		C97FF30A1A814D8E00F09F55 /* Item2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item2TableViewController.m; sourceTree = "<group>"; };
+		C994BFB01A8A798D001058F8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C994BFB11A8A798D001058F8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C994BFB41A8A7D80001058F8 /* LeftShark_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_01.jpg; sourceTree = "<group>"; };
+		C994BFB51A8A7D80001058F8 /* LeftShark_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_02.jpg; sourceTree = "<group>"; };
+		C994BFB61A8A7D80001058F8 /* LeftShark_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_03.jpg; sourceTree = "<group>"; };
+		C994BFB71A8A7D80001058F8 /* LeftShark_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_04.jpg; sourceTree = "<group>"; };
+		C994BFB81A8A7D80001058F8 /* LeftShark_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_05.jpg; sourceTree = "<group>"; };
+		C994BFB91A8A7D80001058F8 /* LeftShark_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_06.jpg; sourceTree = "<group>"; };
+		C994BFBA1A8A7D80001058F8 /* LeftShark_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_07.jpg; sourceTree = "<group>"; };
+		C994BFBB1A8A7D80001058F8 /* LeftShark_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeftShark_08.jpg; sourceTree = "<group>"; };
+		C994BFBC1A8A7D80001058F8 /* LeftShark_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftShark_09.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +123,8 @@
 				C92F03351A814B4F004276CF /* Item1ViewController.m */,
 				C97FF3091A814D8E00F09F55 /* Item2TableViewController.h */,
 				C97FF30A1A814D8E00F09F55 /* Item2TableViewController.m */,
+				C994BFB01A8A798D001058F8 /* DetailViewController.h */,
+				C994BFB11A8A798D001058F8 /* DetailViewController.m */,
 			);
 			path = iOSTemplate;
 			sourceTree = "<group>";
@@ -109,6 +132,15 @@
 		C92F03091A814646004276CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C994BFB41A8A7D80001058F8 /* LeftShark_01.jpg */,
+				C994BFB51A8A7D80001058F8 /* LeftShark_02.jpg */,
+				C994BFB61A8A7D80001058F8 /* LeftShark_03.jpg */,
+				C994BFB71A8A7D80001058F8 /* LeftShark_04.jpg */,
+				C994BFB81A8A7D80001058F8 /* LeftShark_05.jpg */,
+				C994BFB91A8A7D80001058F8 /* LeftShark_06.jpg */,
+				C994BFBA1A8A7D80001058F8 /* LeftShark_07.jpg */,
+				C994BFBB1A8A7D80001058F8 /* LeftShark_08.jpg */,
+				C994BFBC1A8A7D80001058F8 /* LeftShark_09.png */,
 				C97F20FC1A89D31C00E5CEC6 /* beep.mp3 */,
 				C97F20FD1A89D31C00E5CEC6 /* boop.mp3 */,
 				C92F030A1A814646004276CF /* Info.plist */,
@@ -214,11 +246,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C994BFC21A8A7D80001058F8 /* LeftShark_05.jpg in Resources */,
 				C92F03151A814646004276CF /* Main.storyboard in Resources */,
 				C97F20FF1A89D31C00E5CEC6 /* boop.mp3 in Resources */,
 				C92F031A1A814646004276CF /* LaunchScreen.xib in Resources */,
+				C994BFC31A8A7D80001058F8 /* LeftShark_06.jpg in Resources */,
+				C994BFBE1A8A7D80001058F8 /* LeftShark_01.jpg in Resources */,
+				C994BFC11A8A7D80001058F8 /* LeftShark_04.jpg in Resources */,
+				C994BFC01A8A7D80001058F8 /* LeftShark_03.jpg in Resources */,
+				C994BFBF1A8A7D80001058F8 /* LeftShark_02.jpg in Resources */,
 				C97F20FE1A89D31C00E5CEC6 /* beep.mp3 in Resources */,
+				C994BFC51A8A7D80001058F8 /* LeftShark_08.jpg in Resources */,
 				C92F03171A814646004276CF /* Images.xcassets in Resources */,
+				C994BFC41A8A7D80001058F8 /* LeftShark_07.jpg in Resources */,
+				C994BFC61A8A7D80001058F8 /* LeftShark_09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C994BFB21A8A798D001058F8 /* DetailViewController.m in Sources */,
 				C92F030F1A814646004276CF /* AppDelegate.m in Sources */,
 				C97FF30B1A814D8E00F09F55 /* Item2TableViewController.m in Sources */,
 				C92F030C1A814646004276CF /* main.m in Sources */,

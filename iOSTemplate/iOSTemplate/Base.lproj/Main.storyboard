@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zO7-uQ-61v">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -34,31 +35,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHd-Fj-9AX">
-                                <rect key="frame" x="140" y="246" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="244"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="5ZA-QN-qAm"/>
                                     <constraint firstAttribute="height" constant="44" id="J6O-Vf-uTb"/>
                                 </constraints>
-                                <state key="normal" title="Beep">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <state key="normal" title="BEEP">
+                                    <color key="titleColor" red="0.0" green="0.1548536137" blue="0.32378229749999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5ZA-QN-qAm"/>
+                                        <exclude reference="J6O-Vf-uTb"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="beepButtonPressed:" destination="DGG-qJ-VCQ" eventType="touchUpInside" id="c2W-Wg-04h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cof-80-Tie">
-                                <rect key="frame" x="140" y="323" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="244" width="600" height="243"/>
                                 <color key="backgroundColor" red="0.0" green="0.1548536137" blue="0.32378229749999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="4rl-M3-thf"/>
                                     <constraint firstAttribute="height" constant="44" id="nZV-Pb-eiq"/>
                                 </constraints>
-                                <state key="normal" title="Boop">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <state key="normal" title="BOOP">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4rl-M3-thf"/>
+                                        <exclude reference="nZV-Pb-eiq"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="boopButtonPressed:" destination="DGG-qJ-VCQ" eventType="touchUpInside" id="YmF-mH-wek"/>
                                 </connections>
@@ -67,12 +82,32 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cof-80-Tie" firstAttribute="top" secondItem="XHd-Fj-9AX" secondAttribute="bottom" constant="33" id="09Y-hw-GWN"/>
+                            <constraint firstItem="cof-80-Tie" firstAttribute="leading" secondItem="qvY-py-QTw" secondAttribute="leadingMargin" constant="-16" id="5FO-68-D8L"/>
+                            <constraint firstItem="cof-80-Tie" firstAttribute="trailing" secondItem="qvY-py-QTw" secondAttribute="trailingMargin" id="F2l-mF-No3"/>
+                            <constraint firstItem="cof-80-Tie" firstAttribute="top" secondItem="XHd-Fj-9AX" secondAttribute="bottom" id="Gpy-rL-0Da"/>
+                            <constraint firstItem="AqY-WE-sqi" firstAttribute="top" secondItem="cof-80-Tie" secondAttribute="bottom" id="O2J-5m-LOC"/>
+                            <constraint firstItem="cof-80-Tie" firstAttribute="trailing" secondItem="qvY-py-QTw" secondAttribute="trailingMargin" constant="16" id="QCy-Wy-cEE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XHd-Fj-9AX" secondAttribute="trailing" constant="-16" id="c1k-iX-aid"/>
+                            <constraint firstItem="XHd-Fj-9AX" firstAttribute="top" secondItem="Y3E-N3-NSf" secondAttribute="bottom" id="kK7-an-bCP"/>
                             <constraint firstAttribute="centerX" secondItem="cof-80-Tie" secondAttribute="centerX" id="oiS-Nb-yZW"/>
+                            <constraint firstItem="cof-80-Tie" firstAttribute="trailing" secondItem="qvY-py-QTw" secondAttribute="trailingMargin" id="qlA-Iy-AyM"/>
                             <constraint firstAttribute="centerY" secondItem="XHd-Fj-9AX" secondAttribute="centerY" id="rDr-0e-A3e"/>
                             <constraint firstAttribute="centerX" secondItem="XHd-Fj-9AX" secondAttribute="centerX" id="rVy-yX-EXi"/>
+                            <constraint firstItem="XHd-Fj-9AX" firstAttribute="leading" secondItem="qvY-py-QTw" secondAttribute="leadingMargin" constant="-16" id="vgr-s0-F2l"/>
+                            <constraint firstItem="cof-80-Tie" firstAttribute="height" secondItem="XHd-Fj-9AX" secondAttribute="height" id="yy2-Nm-W2q"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rDr-0e-A3e"/>
+                                <exclude reference="rVy-yX-EXi"/>
+                                <exclude reference="09Y-hw-GWN"/>
+                                <exclude reference="F2l-mF-No3"/>
+                                <exclude reference="oiS-Nb-yZW"/>
+                                <exclude reference="qlA-Iy-AyM"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Beep Boop" id="CR3-HO-ItG"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="CR3-HO-ItG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7co-xz-E9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,6 +127,9 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wND-i0-Vcl" id="Hko-gw-7ea">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="xAh-Qh-xUg" kind="show" identifier="DetailSegue" id="EMI-Zc-s18"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -104,6 +142,71 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pb3-hm-8cg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1043" y="725"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="rFk-sd-cXN">
+            <objects>
+                <viewController id="xAh-Qh-xUg" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kVM-QK-ujE"/>
+                        <viewControllerLayoutGuide type="bottom" id="dyX-WH-xPv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sIj-6k-fhP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6lg-wG-3Fg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEEP BOOP INDEX 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrS-DF-zlb">
+                                <rect key="frame" x="16" y="362" width="568" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Mmw-cX-IlN"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="117" id="isr-Z5-bbb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Mmw-cX-IlN"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="6lg-wG-3Fg" secondAttribute="bottom" constant="8" id="0D4-uk-Y19"/>
+                            <constraint firstItem="6lg-wG-3Fg" firstAttribute="top" secondItem="VrS-DF-zlb" secondAttribute="bottom" constant="47" id="6s7-wJ-6O1"/>
+                            <constraint firstItem="VrS-DF-zlb" firstAttribute="trailing" secondItem="sIj-6k-fhP" secondAttribute="trailingMargin" id="Anp-n5-IBu"/>
+                            <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="VrS-DF-zlb" secondAttribute="bottom" constant="8" id="Dzf-db-n0E"/>
+                            <constraint firstItem="6lg-wG-3Fg" firstAttribute="top" secondItem="kVM-QK-ujE" secondAttribute="bottom" id="EkH-gY-zYF"/>
+                            <constraint firstItem="6lg-wG-3Fg" firstAttribute="trailing" secondItem="sIj-6k-fhP" secondAttribute="trailingMargin" id="T2N-Bp-OHJ"/>
+                            <constraint firstItem="6lg-wG-3Fg" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" id="UIX-Rl-8WF"/>
+                            <constraint firstItem="dyX-WH-xPv" firstAttribute="top" secondItem="6lg-wG-3Fg" secondAttribute="bottom" id="WOP-4P-iIk"/>
+                            <constraint firstItem="VrS-DF-zlb" firstAttribute="top" secondItem="kVM-QK-ujE" secondAttribute="bottom" constant="59" id="g00-eB-MFe"/>
+                            <constraint firstItem="6lg-wG-3Fg" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" constant="-16" id="jnW-9S-Xms"/>
+                            <constraint firstItem="VrS-DF-zlb" firstAttribute="leading" secondItem="sIj-6k-fhP" secondAttribute="leadingMargin" id="pVe-yE-5KA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6lg-wG-3Fg" secondAttribute="trailing" constant="-16" id="uaK-to-wgM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6s7-wJ-6O1"/>
+                                <exclude reference="T2N-Bp-OHJ"/>
+                                <exclude reference="UIX-Rl-8WF"/>
+                                <exclude reference="g00-eB-MFe"/>
+                                <exclude reference="0D4-uk-Y19"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="6lg-wG-3Fg" id="ChK-dq-ZlW"/>
+                        <outlet property="label" destination="VrS-DF-zlb" id="1Ib-5N-r7t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mhy-EY-w12" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1785" y="725"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bJj-0X-Svu">
